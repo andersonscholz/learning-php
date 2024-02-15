@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+main{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    margin-top: 10vh;
+    border-radius: 20px;
+
+}
+main * {
+    margin: 15px;
+}
+main input{
+    background-color: rgb(167, 161, 161);
+    border: none;
+    height: 30px;
+    border-radius: 10px;
+    padding: 5px;
+}
+main label{
+    background-color: antiquewhite;
+    font-size: 21px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.abe{
+    margin-left: 70px;
+    cursor: pointer; 
+}
+.abe:hover{
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    width: 900px;
+    height: 400px;
+}
+.l1, .l2{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.a1,.a2,.a3,.a4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 410px;
+    height: 110px;
+    font-size: 50px;
+}
+.a2{
+    border-left: 4px solid black;
+}
+.a4{
+    border-left: 4px solid black;
+    border-top: 4px solid black;
+}
